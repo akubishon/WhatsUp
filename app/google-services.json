@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "198809665779",
+    "firebase_url": "https://whatsup-enes.firebaseio.com",
+    "project_id": "whatsup-enes",
+    "storage_bucket": "whatsup-enes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198809665779:android:de45238369106695c83786",
+        "android_client_info": {
+          "package_name": "com.example.whatsup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198809665779-a0ifksv2hon8ppkq9nqqa9d47gk1363p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqf2-hzF_dpKRODKOQdSQVd6xOk9mH-ko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198809665779-a0ifksv2hon8ppkq9nqqa9d47gk1363p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

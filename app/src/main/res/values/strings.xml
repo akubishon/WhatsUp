@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WhatsUp</string>
+    <string name="tab_text_1">Chats</string>
+    <string name="tab_text_2">Groups</string>
+</resources>
