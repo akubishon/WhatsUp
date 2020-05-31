@@ -6,7 +6,30 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19ce4892-bc38-4f75-ba92-1c3c7d881483" name="Default Changelist" comment="" />
+    <list default="true" id="19ce4892-bc38-4f75-ba92-1c3c7d881483" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/whatsup/LoginActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/whatsup/RegisterActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/example/whatsup/WelcomeActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_register.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/login_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/welcome_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/whatsup/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/whatsup/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,10 +65,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.-771716597">
+      <recent name="com.example.whatsup" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
     </key>
@@ -121,17 +149,39 @@
       <option name="presentableId" value="Default" />
       <updated>1590691634247</updated>
     </task>
+    <task id="LOCAL-00001" summary="firebase link done">
+      <created>1590877023836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590877023836</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="firebase link done" />
+    <option name="LAST_COMMIT_MESSAGE" value="firebase link done" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1028" y="313" key="AndroidCreateResourceFileDialog" timestamp="1590874611416">
+    <state x="1028" y="313" key="AndroidCreateResourceFileDialog" timestamp="1590899477844">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1028" y="313" key="AndroidCreateResourceFileDialog/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590874611416" />
-    <state x="1059" y="155" key="CommitChangelistDialog2" timestamp="1590877009813">
+    <state x="1028" y="313" key="AndroidCreateResourceFileDialog/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590878594224" />
+    <state x="1028" y="313" key="AndroidCreateResourceFileDialog/0.23.1920.1057@0.23.1920.1057" timestamp="1590899477844" />
+    <state x="760" y="155" key="CommitChangelistDialog2" timestamp="1590901549050">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="1059" y="155" key="CommitChangelistDialog2/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590877009813" />
+    <state x="913" y="155" key="CommitChangelistDialog2/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590877023630" />
+    <state x="760" y="155" key="CommitChangelistDialog2/0.23.1920.1057@0.23.1920.1057" timestamp="1590901549050" />
+    <state x="638" y="313" key="Downloadable.Font.Dialog.Size" timestamp="1590878111775">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="638" y="313" key="Downloadable.Font.Dialog.Size/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590878111775" />
+    <state x="1040" y="291" key="Vcs.Push.Dialog.v2" timestamp="1590877027814">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="1040" y="291" key="Vcs.Push.Dialog.v2/-1024.681.1024.617/0.23.1920.1057@0.23.1920.1057" timestamp="1590877027814" />
     <state x="100" y="123" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1590873776749">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
