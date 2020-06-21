@@ -43,7 +43,7 @@ class RegisterActivity : AppCompatActivity() {
                       refUsers = FirebaseDatabase.getInstance().reference.child("Users").child(firebaseUserID)
                       val userHashMap = HashMap<String, Any>()
                       userHashMap["uid"] = firebaseUserID
-                      userHashMap["username"] = etUsername.toString()
+                      userHashMap["username"] = etUsername.text.toString()
                       userHashMap["status"] = "offline"
                       userHashMap["profile"] = "https://firebasestorage.googleapis.com/v0/b/whatsup-enes.appspot.com/o/profile.png?alt=media&token=35b0e1a9-1cde-4615-b5c3-b2a91f9c07e5"
                       userHashMap["search"] = etUsername.toString().toLowerCase()

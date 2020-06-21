@@ -2,6 +2,7 @@ package com.example.whatsup
 
 import android.content.Intent
 import android.os.Bundle
+import android.renderscript.Sampler
 import android.view.Menu
 import android.view.MenuItem
 import android.view.View
@@ -15,15 +16,28 @@ import androidx.fragment.app.FragmentPagerAdapter
 import com.example.whatsup.Fragments.ChatsFragment
 import com.example.whatsup.Fragments.SearchFragment
 import com.example.whatsup.Fragments.SettingsFragment
+import com.example.whatsup.ModelClasses.Users
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.database.*
+import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
+
+
+
+    var refUsers: DatabaseReference? = null
+    var firebaseUser: FirebaseUser? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar_main)
+
+        firebaseUser = FirebaseAuth.getInstance().currentUser
+        refUsers = FirebaseDatabase.getInstance().reference.child("Users").child(firebaseUser!!.uid)
+
 
         val toolbar: Toolbar = findViewById(R.id.toolbar_main)
         setSupportActionBar(toolbar)
@@ -37,6 +51,22 @@ class MainActivity : AppCompatActivity() {
 
         viewPager.adapter = viewPagerAdapter
         tabLayout.setupWithViewPager(viewPager)
+
+        //display username and profile picture
+        refUsers!!.addValueEventListener(object : ValueEventListener {
+            override fun onDataChange(p0: DataSnapshot) {
+                if (p0.exists()){
+                    val user : Users? = p0.getValue(Users::class.java)
+                    user_name.text = user!!.getUsername()
+                    Picasso.get().load(user.getProfile()).into(profile_image)
+
+                }
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+
+            }
+        })
     }
 
 
@@ -54,7 +84,7 @@ class MainActivity : AppCompatActivity() {
         when (item.itemId) {
             R.id.action_logout -> {
                 FirebaseAuth.getInstance().signOut()
-                val intent = Intent(this@MainActivity, LoginActivity::class.java)
+                val intent = Intent(this@MainActivity, WelcomeActivity::class.java)
                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK or Intent.FLAG_ACTIVITY_NEW_TASK)
                 startActivity(intent)
                 finish()

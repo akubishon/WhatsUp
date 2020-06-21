@@ -26,17 +26,16 @@
                 android:tint="@android:color/white"
             >
             </de.hdodenhof.circleimageview.CircleImageView>
+
             <TextView
                 android:id="@+id/user_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="username"
-                android:textSize="18sp"
                 android:layout_marginLeft="26dp"
+                android:text="username"
                 android:textColor="@android:color/white"
-                android:textStyle="bold"
-                >
-            </TextView>
+                android:textSize="18sp"
+                android:textStyle="bold"></TextView>
         </androidx.appcompat.widget.Toolbar>
 
 
